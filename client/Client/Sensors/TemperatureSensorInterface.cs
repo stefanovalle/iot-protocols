@@ -9,5 +9,6 @@ namespace Client.Sensors
     {
         void setTemperature(decimal temperature);
         decimal getTemperature();
+        string toJson();
     }
 }

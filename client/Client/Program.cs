@@ -17,18 +17,13 @@ namespace Client
                 TemperatureSensorInterface temperatureSensor = new VirtualTemperatureSensor();
                 // TODO add more sensors
 
-                HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create("http://localhost:8080/stations/1234");
+                HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create("http://localhost:8080/cars/AB123CD");
                 httpWebRequest.ContentType = "text/json";
                 httpWebRequest.Method = "POST";
 
                 using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
                 {
-                    decimal temperature = temperatureSensor.getTemperature();
-                    string json = "{\"temperature\":\"" + temperature + "\"}";
-
-                    Console.Out.WriteLine("Temperature: " + temperature);
-
-                    streamWriter.Write(json);
+                    streamWriter.Write(temperatureSensor.toJson());
                 }
 
                 var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();

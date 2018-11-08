@@ -15,5 +15,10 @@ namespace Client.Sensors
             Random random = new Random();
             return new decimal((double) random.Next(10, 500) / 10);
         }
+
+        public string toJson()
+        {
+            return "{\"temperature\":\"" + getTemperature() + "\"}";
+        }
     }
 }
