@@ -14,14 +14,13 @@ namespace Client
 
             // init sensors
             List<SensorInterface> sensors = new List<SensorInterface>();
-            sensors.Add(new VirtualTemperatureSensor());
-            sensors.Add(new VirtualPositionSensor());
+            sensors.Add(new VirtualGoalSensor());
 
             while (true)
             {
                 foreach (SensorInterface sensor in sensors)
                 {
-                    HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create("http://localhost:8080/cars/AB123CD");
+                    HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create("http://localhost:8011/tables/AB123");
                     httpWebRequest.ContentType = "text/json";
                     httpWebRequest.Method = "POST";
 

@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Client.Sensors
 {
-    interface TemperatureSensorInterface
+    interface GoalSensorInterface
     {
-        void setTemperature(decimal temperature);
-        decimal getTemperature();
+        void SetGoalDone(bool goalDone);
+        bool GetGoalDone();
     }
 }
