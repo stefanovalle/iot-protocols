@@ -33,6 +33,8 @@ namespace Client
 
                     Console.Out.WriteLine(httpResponse.StatusCode);
 
+                    httpResponse.Close();
+
                     System.Threading.Thread.Sleep(1000);
 
                 }
