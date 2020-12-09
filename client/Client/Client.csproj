@@ -48,9 +48,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sensors\GoalSensorInterface.cs" />
+    <Compile Include="Sensors\SpeedSensorInterface.cs" />
     <Compile Include="Sensors\SensorInterface.cs" />
-    <Compile Include="Sensors\VirtualGoalSensor.cs" />
+    <Compile Include="Sensors\VirtualSpeedSensor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

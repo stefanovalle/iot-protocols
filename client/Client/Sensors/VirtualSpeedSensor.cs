@@ -6,21 +6,17 @@ using System.Globalization;
 
 namespace Client.Sensors
 {
-    class VirtualGoalSensor : GoalSensorInterface, SensorInterface
+    class VirtualSpeedSensor : SpeedSensorInterface, SensorInterface
     {
         public string toJson()
         {
-            return "{\"goalDone\": " + GetGoalDone() + "}";
+            return "{\"speed\": " + GetSpeed() + "}";
         }
 
-        public void SetGoalDone(bool goalDone)
-        {
-        }
-
-        public bool GetGoalDone()
+        public int GetSpeed()
         {
             var random = new Random();
-            return random.Next(2) == 1;
+            return random.Next(100);
         }
     }
 }

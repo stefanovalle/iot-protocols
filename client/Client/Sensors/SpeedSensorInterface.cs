@@ -5,9 +5,8 @@ using System.Text;
 
 namespace Client.Sensors
 {
-    interface GoalSensorInterface
+    interface SpeedSensorInterface
     {
-        void SetGoalDone(bool goalDone);
-        bool GetGoalDone();
+        int GetSpeed();
     }
 }
