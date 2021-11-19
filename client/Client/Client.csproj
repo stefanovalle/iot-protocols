@@ -106,8 +106,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Protocols\Amqp.cs" />
-    <Compile Include="Protocols\Mqtt.cs" />
     <Compile Include="Protocols\Http.cs" />
     <Compile Include="Protocols\ProtocolInterface.cs" />
     <Compile Include="Sensors\SpeedSensorInterface.cs" />

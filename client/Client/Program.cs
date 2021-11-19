@@ -15,13 +15,7 @@ namespace Client
             sensors.Add(new VirtualSpeedSensor());
 
             // define protocol
-            //ProtocolInterface protocol = new Http("http://localhost:8011/scooters/123");
-            //ProtocolInterface protocol = new Mqtt("localhost", "monopattino/speed");
-
-            ProtocolInterface protocol = new Amqp("crow.rmq.cloudamqp.com", "monopattino");
-            /* refactoring necessari alla riga precedente:
-             * - spostare secondo parametro su metodo "Send" (che fra l'altro dipende da *cosa* si sta inviando), modificando l'interfaccia per adattarla anche ad altri protocolli
-             */
+            ProtocolInterface protocol = new Http("http://localhost:8011/drones/123");
 
             // send data to server
             while (true)
@@ -29,6 +23,8 @@ namespace Client
                 foreach (SensorInterface sensor in sensors)
                 {
                     protocol.Send(sensor.toJson());
+
+                    Console.WriteLine("Data sent: " + sensor.toJson());
 
                     System.Threading.Thread.Sleep(1000);
 
