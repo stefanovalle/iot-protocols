@@ -7,6 +7,6 @@ namespace Client.Protocols
 {
     interface ProtocolInterface
     {
-        void Send(string data);
+        void Send(string data, string sensor);
     }
 }

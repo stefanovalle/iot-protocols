@@ -14,7 +14,7 @@ namespace Client.Protocols
             this.endpoint = endpoint;
         }
 
-        public void Send(string data)
+        public void Send(string data, string sensor)
         {
             httpWebRequest = (HttpWebRequest)WebRequest.Create(endpoint);
             httpWebRequest.ContentType = "text/json";

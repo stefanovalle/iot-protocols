@@ -8,7 +8,7 @@ namespace Client.Sensors
 {
     class VirtualSpeedSensor : SpeedSensorInterface, SensorInterface
     {
-        public string toJson()
+        public string ToJson()
         {
             return "{\"speed\": " + GetSpeed() + "}";
         }
@@ -17,6 +17,11 @@ namespace Client.Sensors
         {
             var random = new Random();
             return random.Next(100);
+        }
+
+        public string GetSlug()
+        {
+            return "speed";
         }
     }
 }

@@ -5,10 +5,10 @@ using System.Text;
 
 namespace Client.Sensors
 {
-    interface SensorInterface
+    interface PositionSensorInterface
     {
-        string ToJson();
+        float GetLatitude();
 
-        string GetSlug();
+        float GetLongitude();
     }
 }

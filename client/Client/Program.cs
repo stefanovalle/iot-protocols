@@ -15,16 +15,19 @@ namespace Client
             sensors.Add(new VirtualSpeedSensor());
 
             // define protocol
-            ProtocolInterface protocol = new Http("http://localhost:8011/drones/123");
+            //ProtocolInterface protocol = new Http("http://localhost:8011/drones/123");
+            ProtocolInterface protocol = new Mqtt("127.0.0.1");
 
             // send data to server
             while (true)
             {
                 foreach (SensorInterface sensor in sensors)
                 {
-                    protocol.Send(sensor.toJson());
+                    var data = sensor.ToJson();
 
-                    Console.WriteLine("Data sent: " + sensor.toJson());
+                    protocol.Send(data, sensor.GetSlug());
+
+                    Console.WriteLine("Data sent: " + data);
 
                     System.Threading.Thread.Sleep(1000);
 
