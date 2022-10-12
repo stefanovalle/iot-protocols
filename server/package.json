@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "mqtt": "^4.2.8",
-    "restify": "^6.4.0"
+    "restify": "^8.6.1"
   }
 }
