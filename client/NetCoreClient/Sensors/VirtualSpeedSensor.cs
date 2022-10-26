@@ -19,7 +19,7 @@ namespace NetCoreClient.Sensors
 
         public string ToJson()
         {
-            return JsonSerializer.Serialize(new Speed(Random.Next(100)));
+            return JsonSerializer.Serialize(Speed());
         }
     }
 }
