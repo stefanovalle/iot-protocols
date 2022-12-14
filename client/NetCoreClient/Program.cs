@@ -3,10 +3,10 @@ using NetCoreClient.Protocols;
 
 // define sensors
 List<ISensorInterface> sensors = new();
-sensors.Add(new VirtualSpeedSensor());
+sensors.Add(new VirtualLevelSensor());
 
 // define protocol
-ProtocolInterface protocol = new Http("http://localhost:8011/drones/123");
+ProtocolInterface protocol = new Http("http://localhost:8011/silos/123");
 
 // send data to server
 while (true)
