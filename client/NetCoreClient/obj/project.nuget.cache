@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dDVe+3JoHm1KB4ML/UBlvITLRrICQF8k/I8By0l8wyKtVWfZIv4Wdd0XZQpkfK23mdJOAMTRUyWrVSJCGrHacA==",
+  "dgSpecHash": "yJjmjW+PpuIRVGf6Tll0BPMVA2wEO/WT+l/NW8Y8+HXHiupxjuqsfgfVUXihN359fzKbMB1rffpSH0l6qZowzg==",
   "success": true,
   "projectFilePath": "D:\\git\\iot-protocols\\client\\NetCoreClient\\NetCoreClient.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\Stefano\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\6.0.0\\microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512",
     "C:\\Users\\Stefano\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
     "C:\\Users\\Stefano\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Stefano\\.nuget\\packages\\mqttnet\\4.1.4.563\\mqttnet.4.1.4.563.nupkg.sha512",
     "C:\\Users\\Stefano\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Stefano\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Stefano\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
