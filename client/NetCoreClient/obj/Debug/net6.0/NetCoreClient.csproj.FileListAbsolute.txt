@@ -21,5 +21,6 @@ D:\git\iot-protocols\client\NetCoreClient\bin\Debug\net6.0\Microsoft.Extensions.
 D:\git\iot-protocols\client\NetCoreClient\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
 D:\git\iot-protocols\client\NetCoreClient\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
 D:\git\iot-protocols\client\NetCoreClient\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
-D:\git\iot-protocols\client\NetCoreClient\obj\Debug\net6.0\NetCoreClient.csproj.CopyComplete
 D:\git\iot-protocols\client\NetCoreClient\bin\Debug\net6.0\MQTTnet.dll
+D:\git\iot-protocols\client\NetCoreClient\obj\Debug\net6.0\NetCoreClient.sourcelink.json
+D:\git\iot-protocols\client\NetCoreClient\obj\Debug\net6.0\NetCoreC.3FF35A2D.Up2Date

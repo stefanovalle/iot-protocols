@@ -6,7 +6,7 @@ List<ISensorInterface> sensors = new();
 sensors.Add(new VirtualSpeedSensor());
 
 // define protocol
-//IProtocolInterface protocol = new Http("http://localhost:8011/drones/123");
+//IProtocolInterface protocol = new Http("http://localhost:8011/cars/123");
 IProtocolInterface protocol = new Mqtt("127.0.0.1");
 
 // send data to server

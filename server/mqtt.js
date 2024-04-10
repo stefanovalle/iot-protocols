@@ -3,7 +3,7 @@ const client  = mqtt.connect('mqtt://127.0.0.1')
 
 client.on('connect', function () {
     console.log("Connesso");
-    client.subscribe('iot2022test/#');
+    client.subscribe('iot2024test/#');
 })
 
 client.on('message', function (topic, message) {

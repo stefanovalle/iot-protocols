@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+9wzyKlkVN7HZd1tQgpgeMyq1phUWf5wSmyr6kdP5b5juDMegeXUJ8eotPna8AepMch1s0H56UTSo7OQy35cnA==",
+  "dgSpecHash": "vEc7LulvNFeX7uaIURmxvGTPXH18HmZLSEshyjQbLPTqXFLnlW+JRGUUXd9C4Znb/FP6ALdmYQco2LypVToVzA==",
   "success": true,
   "projectFilePath": "D:\\git\\iot-protocols\\client\\NetCoreClient\\NetCoreClient.csproj",
   "expectedPackageFiles": [
