@@ -1,10 +1,10 @@
 ﻿namespace NetCoreClient.ValueObjects;
 
-internal class Speed
+internal class OilTemperature
 {
     public int Value { get; private set; }
-    
-    public Speed(int value)
+
+    public OilTemperature(int value)
     {
         this.Value = value;
     }
