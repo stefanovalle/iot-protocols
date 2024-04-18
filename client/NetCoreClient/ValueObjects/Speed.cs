@@ -2,7 +2,7 @@
 
 internal class Speed
 {
-    public int Value { get; private set; }
+    public int Value { get; set; }
     
     public Speed(int value)
     {

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pelli\\OneDrive\\Desktop\\Ciao\\iot-protocols\\client\\NetCoreClient\\NetCoreClient.csproj": {}
+    "C:\\Users\\Utente\\Desktop\\Protocolli IoT\\Project #1\\client\\NetCoreClient\\NetCoreClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pelli\\OneDrive\\Desktop\\Ciao\\iot-protocols\\client\\NetCoreClient\\NetCoreClient.csproj": {
+    "C:\\Users\\Utente\\Desktop\\Protocolli IoT\\Project #1\\client\\NetCoreClient\\NetCoreClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelli\\OneDrive\\Desktop\\Ciao\\iot-protocols\\client\\NetCoreClient\\NetCoreClient.csproj",
+        "projectUniqueName": "C:\\Users\\Utente\\Desktop\\Protocolli IoT\\Project #1\\client\\NetCoreClient\\NetCoreClient.csproj",
         "projectName": "NetCoreClient",
-        "projectPath": "C:\\Users\\pelli\\OneDrive\\Desktop\\Ciao\\iot-protocols\\client\\NetCoreClient\\NetCoreClient.csproj",
-        "packagesPath": "C:\\Users\\pelli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelli\\OneDrive\\Desktop\\Ciao\\iot-protocols\\client\\NetCoreClient\\obj\\",
+        "projectPath": "C:\\Users\\Utente\\Desktop\\Protocolli IoT\\Project #1\\client\\NetCoreClient\\NetCoreClient.csproj",
+        "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Utente\\Desktop\\Protocolli IoT\\Project #1\\client\\NetCoreClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pelli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {},
+          "https://pkgs.dev.azure.com/adapthings/_packaging/AdapthingsFramework/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -38,11 +40,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -70,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

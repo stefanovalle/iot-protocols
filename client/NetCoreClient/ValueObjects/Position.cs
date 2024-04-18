@@ -8,8 +8,8 @@ namespace NetCoreClient.ValueObjects;
 
 internal class Position
 {
-    public int ValueLat { get; private set; }
-    public int ValueLon { get; private set; }
+    public int ValueLat { get; set; }
+    public int ValueLon { get; set; }
 
     public Position(int valueLat, int valueLon)
     {

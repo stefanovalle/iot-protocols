@@ -12,6 +12,12 @@ class VirtualFuelSensor : IFuelSensor, ISensorInterface
         Random = new Random();
     }
 
+    public string Name()
+    {
+        string name = this.GetType().Name;
+        return name;
+    }
+
     public int Fuel()
     {
         return new Fuel(Random.Next(100)).Value;
@@ -20,6 +26,7 @@ class VirtualFuelSensor : IFuelSensor, ISensorInterface
     public string ToJson()
     {
         return JsonSerializer.Serialize(Fuel());
+        
     }
 }
 

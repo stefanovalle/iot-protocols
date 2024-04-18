@@ -12,6 +12,12 @@ class VirtualOilTemperatureSensor : IOilTemperatureSensor, ISensorInterface
         Random = new Random();
     }
 
+    public string Name()
+    {
+        string name = this.GetType().Name;
+        return name;
+    }
+
     public int OilTemperature()
     {
         return new OilTemperature(Random.Next(100)).Value;

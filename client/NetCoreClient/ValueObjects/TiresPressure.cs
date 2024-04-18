@@ -8,10 +8,10 @@ namespace NetCoreClient.ValueObjects;
 
 internal class TiresPressure
 {
-    public int ValueTireFSX { get; private set; }
-    public int ValueTireRSX { get; private set; }
-    public int ValueTireFDX { get; private set; }
-    public int ValueTireRDX { get; private set; }
+    public int ValueTireFSX { get; set; }
+    public int ValueTireRSX { get; set; }
+    public int ValueTireFDX { get; set; }
+    public int ValueTireRDX { get; set; }
 
     public TiresPressure(int valueTireFSX, int valueTireRSX, int valueTireFDX, int valueTireRDX)
     {

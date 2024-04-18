@@ -12,9 +12,20 @@ class VirtualPositionSensor : IPositionSensor, ISensorInterface
         Random = new Random();
     }
 
+    public string Name()
+    {
+        string name = this.GetType().Name;
+        return name;
+    }
+
     public Position Position()
     {
-        return new Position(Random.Next(100), Random.Next(100));
+        var position = new Position(0, 0);
+
+        position.ValueLat = Random.Next(100);
+        position.ValueLon = Random.Next(100);
+
+        return position;
     }
 
     public string ToJson()

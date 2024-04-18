@@ -12,9 +12,22 @@ class VirtualTiresPressureSensor : ITiresPressureSensor, ISensorInterface
         Random = new Random();
     }
 
+    public string Name()
+    {
+        string name = this.GetType().Name;
+        return name;
+    }
+
     public TiresPressure TiresPressure()
     {
-        return new TiresPressure(Random.Next(100), Random.Next(100), Random.Next(100), Random.Next(100));
+        var tirespressure = new TiresPressure(0, 0, 0, 0);
+
+        tirespressure.ValueTireFSX = Random.Next(100);
+        tirespressure.ValueTireFDX = Random.Next(100);
+        tirespressure.ValueTireRSX = Random.Next(100);
+        tirespressure.ValueTireRDX = Random.Next(100);
+
+        return tirespressure;
     }
 
     public string ToJson()

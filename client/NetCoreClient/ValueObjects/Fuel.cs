@@ -8,7 +8,7 @@ namespace NetCoreClient.ValueObjects;
 
 internal class Fuel
 {
-    public int Value { get; private set; }
+    public int Value { get; set; }
 
     public Fuel(int value)
     {

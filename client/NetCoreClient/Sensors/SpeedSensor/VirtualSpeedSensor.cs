@@ -1,5 +1,4 @@
-﻿using NetCoreClient.Sensors;
-using NetCoreClient.ValueObjects;
+﻿using NetCoreClient.ValueObjects;
 using System.Text.Json;
 
 namespace NetCoreClient.Sensors;
@@ -11,6 +10,12 @@ class VirtualSpeedSensor : ISpeedSensor, ISensorInterface
     public VirtualSpeedSensor()
     {
         Random = new Random();
+    }
+
+    public string Name()
+    {
+        string name = this.GetType().Name;
+        return name;
     }
 
     public int Speed()
