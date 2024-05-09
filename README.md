@@ -1,4 +1,4 @@
-# MQTT - Jimmy Pellizzer
+# MQTT - Jimmy Pellizzer e Marco Del Sal
 
 MQTT è un protocollo basato su un modello pubblicazione-sottoscrizione (pub/sub). Il client pubblica, il broker riceve e "distribuisce" a tutti i client sottoscritti.
 
