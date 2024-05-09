@@ -9,7 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
+    "restify": "^11.1.0"
+=======
     "restify": "^8.6.0",
     "mqtt": "^4.3.7"
+>>>>>>> 3bfccb211c76d36433611b06e74629564d577401
   }
 }
