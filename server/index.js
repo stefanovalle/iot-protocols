@@ -3,18 +3,18 @@ var restify = require('restify');
 var server = restify.createServer();
 server.use(restify.plugins.bodyParser());
 
-server.get('/cars', function(req, res, next) {
-    res.send('List of cars: [TODO]');
+server.get('/water_coolers', function(req, res, next) {
+    res.send('List of coolers: [TODO]');
     return next();
 });
 
-server.get('/cars/:id', function(req, res, next) {
-    res.send('Current values for car ' + req.params['id'] + ': [TODO]');
+server.get('/water_coolers/:id', function(req, res, next) {
+    res.send('Current values for cooler ' + req.params['id'] + ': [TODO]');
     return next();
 });
 
-server.post('/cars/:id', function(req, res, next) {
-    res.send('Data received from car [TODO]');
+server.post('/water_coolers/:id', function(req, res, next) {
+    res.send('Data received from cooler [TODO]');
 
     console.log(req.body);
 
